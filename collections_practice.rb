@@ -23,3 +23,8 @@ end
 def kesha_maker(array)
   array.collect{ |array| array.delete(array[2]).insert(2, "$") }
 end
+
+def find_a(array)
+  array.select { |array| array[0] == "a" }
+
+end
