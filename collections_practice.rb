@@ -26,5 +26,8 @@ end
 
 def find_a(array)
   array.select { |array| array[0] == "a" }
+end
 
+def sum_array(array)
+  array.inject {|sum, array| sum + array }
 end
