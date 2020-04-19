@@ -11,3 +11,7 @@ end
 def sort_array_char_count(array)
   array.sort_by(&:length)
 end
+
+def swap_elements(array)
+  array.sort {|a,b| if a = array[1] b = array[2]}
+end
